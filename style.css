@@ -1,0 +1,68 @@
+
+body {
+    background: url('https://i.pinimg.com/1200x/50/c3/b3/50c3b3011386e62bf022d44c5315877a.jpg') center/cover;
+}
+
+nav {
+    background: rgb(189, 11, 189);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 177, 229);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    margin-left: 120px;
+    background: white;
+
+}
+
+.btn:hover{
+    background:rgb(189, 11, 189);
+}
+h2 {
+    color: whitesmoke;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    font-family: almondregular;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
